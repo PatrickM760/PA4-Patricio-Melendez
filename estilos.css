@@ -1,0 +1,129 @@
+body{
+    height: 100%;
+    background: linear-gradient(45deg, #6ef5a2, #ff60d5);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 100px 500px 200px;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+}
+.caja{
+    margin: 15px;
+}
+.caja1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.titulo{
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1{
+    from{
+        margin-top: 0;
+        color: black;
+        font-size: 32px;
+    }
+
+    to{
+    margin-top: 15px;
+    color: rgb(39, 39, 206);
+    font-size: 3em;
+}
+
+
+
+}
+
+
+
+
+.caja2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.caja3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.caja4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.controles{
+    width: 600px;
+    height: 30px;
+}
+
+.btn{
+    width: 20%;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    margin: 12px 0;
+    font-size: 16px;
+    
+}
+
+h2{
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.caja5{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: #2e3436;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.redes{
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+}
+
+.redes li a{
+    padding: 5px;
+}
+.redes li a:hover{
+    opacity: 0.5;
+}
+.redes li a img{
+    filter: invert(100%);
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+}

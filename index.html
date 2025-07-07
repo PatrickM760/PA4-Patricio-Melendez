@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA4 Patricio Melendez</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/png">
+
+    <script>
+      $(function(){
+        $(".slider").bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 2600
+        });
+      });
+    </script>
+<body>
+ <div class="slider">
+      <div> <img src="img/Lima.jpg" alt="lima" height="900" width="2600"></div>
+      <div> <img src="img/Piura.jpg" alt="piura" height="900" width="2600"></div>
+      <div> <img src="img/cajamarca.jpg" alt="cajamarca" height="900" width="2600"></div>
+    </div>
+
+    <div class="grid">
+        <div class="caja caja1">
+            <h1 class="titulo">Descubre el Perú con nosotros</h1>
+        </div>
+         <div class="caja caja2">
+            <h2>DESTINOS</h2>
+            <p>Descubre los mejores destinos turísticos gracias a nuestros servicios, explora el Perú y dale color a tu vida, !Es hora de viajar!</p>
+            <figure>
+                <img src="img/machu pichu.jpg" alt="pichu" height="330" width="600">
+            </figure>
+        </div>
+         <div class="caja caja3">
+            <h2>OFERTAS</h2>
+            <p>Descubre las mejores ofertas para que puedas disfrutar de las mejores experiencias a un precio cómodo, !Explora y elige!</p>
+            <figure>
+                <img src="img/ofertas.jpg" alt="ofertas" height="330" width="600">
+            </figure>
+        </div>
+
+         <div class="caja caja4">
+            <form method="get">
+<div>
+    <h2>REGÍSTRATE</h2>
+    <p>Nombre:</p>
+    <input class="controles" type="text" name="Nombre"><br>
+    <p>E-mail:</p>
+    <input class="controles" type="text" name="correo">
+</div>
+                    <div class="botones">
+                    <input type="submit" value="Registrarse" class="btn">
+                    </div>
+            </form>
+        </div>
+
+         <div class="caja caja5">
+            <h4>2025 YTuQuePlanes - Agencia de Viajes</h4>
+            <h4>Dirección: Av Mexico 333, La Victoria</h4>
+                
+                <ul class="redes">
+                    <li><a href="https://x.com/ConoceelPeru?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="img/gorjeo.png" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/ytuqueplanesperu.pe/?locale=es_LA"><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/ytuqueplanes/?hl=es"><img src="img/instagram.png" alt=""></a></li>
+                </ul>
+                
+            
+        </div>
+    </div>
+</body>
